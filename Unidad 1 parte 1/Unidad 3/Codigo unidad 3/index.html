@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Crear Curriculum Vitae</title>
+</head>
+<body>
+    <h1><span style="color:brown">Armar curriculum Vitae</span></h1>
+    <hr>
+    <h2><span style="color:brown">>Complete con sus datos lo siguiente: </span></h2>
+    <ol>
+        <li>Coloque una imagen</li>
+        <li>Complete lo correspondiente</li>
+        <li>Escriba algo sobre usted</li>
+    </ol>
+    <h3> _Coloque una imagen suya como la siguiente:_</h3>
+<img src="img/retrato1.jpg" width="220" height="150" />
+<br> <br>
+    <form>
+        <label for="nombre"><span style="color:burlywood"> *Escriba su nombre completo y apellido:</span></label>
+        <input id="nombre" name="nombre" placeholder="Nombre completo y apellido"/>
+
+    <br>    
+    
+     <label for="domicilio"><span style="color:burlywood"> *Escriba su domicilio: </span>
+        <input id="domicilio" name="domicilio" placeholder="Domicilio"/>
+    
+    <h3><span style="color:brown"> >*Seleccione segun corresponda: </span> </h3>
+       <h3>_¿Hace cuanto fue su ultimo trabajo?</h3>
+     
+        <label for="Actualmente tengo uno"><span style="color:burlywood"> [Actualmente tengo uno</span></label>
+        <input type="radio" id="Actualmente tengo uno" name="Actualmente tengo uno">
+        <br> <br>
+        <label for="1 año"><span style="color:burlywood">[1 año</span></label>
+        <input type="radio" id="1 año" name="1 año">
+        <br><br>       
+        <label for="3 anos"><span style="color:burlywood"> [Hace 3 años </span></label>
+        <input type="radio" id="3 anos" name="3 anos ">
+        <br><br>
+        <label for="5 anos"><span style="color:burlywood"> [Hace 5 años </span></label>
+        <input type="radio" id="5 anos" name="5 anos ">
+        <br><br>
+        <label for="Si no aparece tu tiempo escribalo aqui"><span style="color:burlywood">[Si no aparece tu tiempo escribalo aqui:</span></label>
+        <input id="Si no aparece tu tiempo escribalo aqui" name="Si no aparece tu tiempo escribalo aqui" placeholder="Esribalo aqui">
+        
+    <h3> <span style="color: brown;"> >Ponga informacion sobre lo que usted brinda</span></h3> 
+    <textarea cols="50" rows="10" id="Escriba informacion sobre lo que usted brinda" name="Escriba informacion sobre lo que usted brinda" placeholder="Escriba informacion sobre lo que usted brinda"></textarea>
+    <input type="submit" />
+    </form>
+</body>
+</html>
